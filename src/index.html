@@ -8,7 +8,34 @@
   <link rel="stylesheet" href="./index.scss">
 </head>
 <body>
+  <div class="container">
+    <header class="header">
+        <h1 class="logo"><a href="#"><img src="" alt="Unboxing"></a></h1>
+        <ul class="member">
+            <input type="search" id="search" required placeholder="검색어를 입력하세요">
+            <button type="submit" class="btn-search">검색</button>
+              <li>
+                <a href="#">로그인</a>
+              </li>
+              <li>
+                <a href="#">장바구니</a>
+              </li>
+              <li>
+                <a href="#">Review</a>
+              </li>
+        </ul>
+
+    </header>
+  </div>
   <!-- 템플릿을 이곳에 작성해주세요 -->
+  <!-- 로그인 폼 -->
+    <template id="login-form">
+      <form class="login-form">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <button>Log in</button>
+      </form>
+    </template>
 
   <div class="root"></div>
   <script src="./index.js"></script>
