@@ -1,4 +1,44 @@
-# FDS 중간 프로젝트 템플릿
+# FDS 중간 프로젝트 : 쇼핑몰 제작
+
+
+## 작업예상일정
+---
+- 181107 (Wed) 12:00
+  기획 완성
+
+- 181107 (Wed)
+
+  시멘틱한 HTML 메인화면 구조설계 및 로그인 기능 구현
+
+- 181108 (Thu)
+
+  상품 데이터 입력 및 상품 목록구현, 제품 상세 페이지 구현
+
+- 181109 (Fri)
+
+  장바구니 화면, 주문내역 구현
+
+- 181110 (Sat)
+
+  부족한 부분 수정 (작업하면서 업데이트 예정)
+
+- 181111 (Sun)
+
+  부족한 부분 수정 (작업하면서 업데이트 예정)
+
+## 초기 기획안
+---
+![Midproject_Draft](midproject_draft.jpg)
+
+이렇게 만들수 있겠죠?? 제발 ㅠㅠㅠ
+
+## 목표
+---
+최소 요구 기능만큼은 필수로 버그 없이 돌아가게 만들자 ! 화이팅 ! >_<
+
+
+
+---
 
 이 저장소를 중간 프로젝트에서 템플릿으로 사용할 수 있습니다. 빌드 도구로 [Parcel](https://parceljs.org/)을 사용하고 있으며, [create-react-app](https://github.com/facebook/create-react-app)에서 사용하는 [Babel](http://babeljs.io/) 프리셋인 [babel-preset-react-app](https://github.com/facebook/create-react-app/tree/master/packages/babel-preset-react-app)을 통해 여러 최신 문법을 사용할 수 있도록 설정되어 있습니다.
 
