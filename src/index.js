@@ -46,6 +46,12 @@ function drawFragment(frag) {
 
   //2. 요소 선택
   const mainEl = layoutFrag.querySelector('.main')
+  const loginEl = layoutFrag.querySelector('.appbar__sign-in')
+
+  // 5. 이벤트 리스너 등록하기
+  loginEl.addEventListener('click', async e=>{
+    drawLoginForm()
+  })
 
   //6.템플릿을 문서에 삽입
   mainEl.appendChild(frag)
@@ -71,7 +77,6 @@ async function drawProductList(category) {
   const response = await api.get('/products', {
     params
   })
-  console.log(response)
   const productList = response.data
   // /products 경로로 api.get 을 이용하여 받아온다.
   // await 응답을 기다린다.
@@ -148,8 +153,9 @@ async function drawLoginForm() {
       //로그인 한후 뜨는 화면을 그리기 (지금 현재는 내가 임의 지정)
     })
   // 6. 템플릿을 문서에 삽입
-    rootEl.textContent = ''
-    rootEl.appendChild(frag)
+    // rootEl.textContent = ''
+    // rootEl.appendChild(frag)
+    drawFragment(frag)
   }
 
   //상품 상세
@@ -177,15 +183,15 @@ async function drawLoginForm() {
   mainImageEl.setAttribute('src', mainImgUrl)
   titleEl.textContent = title
   descriptionEl.textContent = description
-  // for (const url of detailImgUrls) {
-  //   const frag = document.importNode(templates.detailImage, true)
+  for (const url of detailImgUrls) {
+    const frag = document.importNode(templates.detailImage, true)
 
-  //   const detailImageEl = frag.querySelector('.detail-image')
+    const detailImageEl = frag.querySelector('.detail-image')
 
-  //   detailImageEl.setAttribute('src', url)
+    detailImageEl.setAttribute('src', url)
 
-  //   detailImageListEl.appendChild(frag)
-  // }
+    detailImageListEl.appendChild(frag)
+  }
 
   // 5. 이벤트 리스너 등록하기
   // 6. 템플릿을 문서에 삽입

@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Unboxing</title>
   <link rel="stylesheet" href="./index.scss">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header">
-    </header>
+    <header class="header"></header>
   </div>
   <!-- 템플릿을 이곳에 작성해주세요 -->
 
@@ -18,53 +18,55 @@
   <template id="layout">
     <div class="appbar">
       <div class="appbar__left">
-        <a href="#"><img src="unboxing_logo.png" alt="Unboxing" height="100" width="300"></a>
+        <a href="#"><img src="unboxing_logo.png" alt="Unboxing" height="70" width="180"></a>
       </div>
       <div class="appbar__right">
          <div class="appbar__search">
             <input type="search" id="search" required placeholder="검색어를 입력하세요">
-            <button type="submit" class="btn-search">검색</button>
+            <button type="submit" class="btn-search"><i class="fas fa-search"></i></button>
          </div>
-         <div class="appbar__link sign-up">SIGN UP</div>
-         <div class="appbar__link sign-in">SIGN IN</div>
-         <div class="appbar__link sign-out">SIGN OUT</div>
+         <div class="appbar__sign-in"><i class="fas fa-door-open">SIGN IN</i></div>
+         <div class="appbar__cart"><i class="fas fa-shopping-bag"></i></div>
+         <div class="appbar__review">REVIEW</div>
       </div>
     </div>
     <nav class="navbar">
-        <div class="navbar__link best">BEST</div>
+        <div class="navbar__best">BEST</div>
         <div class="navbar__outer">OUTER</div>
-        <div class="navbar__link top">TOP</div>
-        <div class="navbar__link bottom">BOTTOM</div>
-        <div class="navbar__link onepice">One-peice</div>
-        <div class="navbar__link accessory">ACCESSORY</div>
+        <div class="navbar__top">TOP</div>
+        <div class="navbar__bottom">BOTTOM</div>
+        <div class="navbar__onepice">ONEPIECE</div>
+        <div class="navbar__accessory">ACCESSORY</div>
       </nav>
       <main class="main"></main>
  </template>
 
   <!-- 로그인 폼 -->
     <template id="login-form">
+      <div class="login">
       <form class="login-form">
         <label>
-        <input type="text" name="username">
+        <i class="fas fa-user"></i><input type="text" id="username" name="username" placeholder="ID">
         </label>
         <label>
-        <input type="password" name="password">
+        <i class="fas fa-key"></i><input type="password" id="password" name="password" placeholder="PW">
         </label>
-        <button>Log in</button>
+        <button class="login-btn">Log in</button>
       </form>
+      </div>
     </template>
 
   <!--상품목록-->
     <template id="product-list">
-      <div class="product-list"></div>
+      <ul class="product-list"></ul>
     </template>
 
       <template id="product-item">
-        <div class="product-item">
+        <li class="product-item">
           <img class="main-image">
           <div class="title"></div>
           <div class="description"></div>
-        </div>
+        </li>
       </template>
 
   <!-- 상품상세 -->

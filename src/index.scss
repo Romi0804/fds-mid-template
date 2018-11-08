@@ -1,5 +1,183 @@
 $main-color: rgba(0,0,0,0);
 
-body {
-  background-color: $main-color;
+/* 스타일 초기화 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1em;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+ul {
+	list-style-type: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS 모듈 */
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 숨김 콘텐츠 */
+.readable-hidden, .skip-nav, legend{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  clip: rect(0,0,0,0);
+}
+
+/* 본문 스타일 */
+html{
+  font-size: 10px;
+}
+body{
+  color: #181818;
+  background: $main-color;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+/* 하이퍼링크 스타일 */
+a{
+  color: inherit;
+  text-decoration: none;
+}
+/* 레이아웃 */
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+#layout {
+  margin: 0 auto;
+}
+
+/* 로고 */
+.appbar__left{
+  position: absolute;
+  top: 50px;
+  left: 650px;
+  z-index: 100;
+}
+
+/* appbar 상단메뉴*/
+.appbar__right{
+  text-align: right;
+  font-size: 0;
+  padding: 2px 5px 2px 0;
+}
+.appbar__search, .appbar__sign-in, .appbar__cart, .appbar__review{
+  display: inline-block;
+}
+.appbar__search, .appbar__sign-in, .appbar__cart, .appbar__review{
+  font-size: 1.4rem;
+}
+.appbar__search, .appbar__sign-in, .appbar__cart, .appbar__review:nth-child(n+2)::before{
+  content: "";
+}
+.appbar__search, .appbar__sign-in, .appbar__cart, .appbar__review{
+  padding: 8px 10px;
+  text-transform: uppercase;
+}
+
+.appbar__search #search{
+  border-radius: 10px;
+  border-color: black;
+  padding-left: 10px;
+  width: 200px;
+  height: 20px;
+  font-size: 1rem;
+}
+
+.btn-search {
+  font-size : 1.2rem;
+  border-radius: 10px;
+  border-color:black;
+}
+
+/*메인메뉴*/
+.navbar{
+  margin : 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 120px 150px 20px 150px;
+  border-bottom: 2px solid #000;
+  font-size: 15px;
+}
+
+/*메인화면 상품정렬*/
+.product-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.product-item {
+  width: 300px;
+  margin: 80px 90px;
+}
+
+.product-item img{
+width: 300px;
+height: auto;
+}
+
+/*로그인폼*/
+
+.login-form {
+width: 400px;
+padding: 100px;
+width: 400px;
+box-sizing: content-box;
+margin: 0 auto;
+}
+
+#username{
+  padding-left:10px;
+  margin: 10px 0;
+  border-color: black;
+  width: 400px;
+  height: 50px;
+  font-size: 1rem;
+}
+
+#password{
+  padding-left: 10px;
+  margin: 10px 0;
+  border-color: black;
+  width: 400px;
+  height: 50px;
+  font-size: 1rem;
+}
+
+.login-btn{
+  margin: 15px 0;
+  border-color: black;
+  border-width: 3px;
+  width: 400px;
+  height: 50px;
+  font-size: 1rem;
 }
