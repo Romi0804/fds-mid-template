@@ -8,34 +8,82 @@
   <link rel="stylesheet" href="./index.scss">
 </head>
 <body>
-  <div class="container">
     <header class="header">
-        <h1 class="logo"><a href="#"><img src="" alt="Unboxing"></a></h1>
-        <ul class="member">
-            <input type="search" id="search" required placeholder="검색어를 입력하세요">
-            <button type="submit" class="btn-search">검색</button>
-              <li>
-                <a href="#">로그인</a>
-              </li>
-              <li>
-                <a href="#">장바구니</a>
-              </li>
-              <li>
-                <a href="#">Review</a>
-              </li>
-        </ul>
-
     </header>
   </div>
   <!-- 템플릿을 이곳에 작성해주세요 -->
+
+  <!-- 메인화면 -->
+  <!--로고, 로그인버튼, 검색바, 메뉴-->
+  <template id="layout">
+    <div class="appbar">
+      <div class="appbar__left">
+        <a href="#"><img src="unboxing_logo.png" alt="Unboxing" height="100" width="300"></a>
+      </div>
+      <div class="appbar__right">
+         <div class="appbar__search">
+            <input type="search" id="search" required placeholder="검색어를 입력하세요">
+            <button type="submit" class="btn-search">검색</button>
+         </div>
+         <div class="appbar__link sign-up">SIGN UP</div>
+         <div class="appbar__link sign-in">SIGN IN</div>
+         <div class="appbar__link sign-out">SIGN OUT</div>
+      </div>
+    </div>
+    <nav class="navbar">
+        <div class="navbar__link best">BEST</div>
+        <div class="navbar__outer">OUTER</div>
+        <div class="navbar__link top">TOP</div>
+        <div class="navbar__link bottom">BOTTOM</div>
+        <div class="navbar__link onepice">One-peice</div>
+        <div class="navbar__link accessory">ACCESSORY</div>
+      </nav>
+      <main class="main"></main>
+ </template>
+
   <!-- 로그인 폼 -->
     <template id="login-form">
       <form class="login-form">
+        <label>
         <input type="text" name="username">
+        </label>
+        <label>
         <input type="password" name="password">
+        </label>
         <button>Log in</button>
       </form>
     </template>
+
+  <!--상품목록-->
+    <template id="product-list">
+      <div class="product-list"></div>
+    </template>
+
+      <template id="product-item">
+        <div class="product-item">
+          <img class="main-image">
+          <div class="title"></div>
+          <div class="description"></div>
+        </div>
+      </template>
+
+  <!-- 상품상세 -->
+      <template id="product-detail">
+        <div class="product-detail">
+          <div class="product-info">
+            <img class="main-image">
+            <div class="title"></div>
+            <div class="description"></div>
+          </div>
+          <form class="cart-form"></form>
+          <div class="detail-image-list">
+          </div>
+        </div>
+      </template>
+
+      <template id="detail-image">
+        <img class="detail-image">
+      </template>
 
   <div class="root"></div>
   <script src="./index.js"></script>
