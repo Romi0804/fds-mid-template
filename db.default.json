@@ -15,6 +15,7 @@
       "category": "Outer",
       "title": "Gray wool Jacket",
       "description": "아이 따뜻해",
+      "price": "₩ 93,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FGrayWoolJacket_outer1.png?1541640972285",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FGrayWoolJacket_outer1.png?1541640972285"]
     },
@@ -23,6 +24,7 @@
       "category": "Outer",
       "title": "Square Down Padding",
       "description": "중성미 뿜뿜 카리스마 뿜뿜",
+      "price": "₩ 133,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FsquareDownPadding_outer2.png?1541576145319",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FsquareDownPadding_outer2.png?1541576145319"]
     },
@@ -31,6 +33,7 @@
       "category": "Outer",
       "title": "Nova Down Padding",
       "description": "오늘은 세상 고귀해 보이고 싶더라",
+      "price": "₩ 169,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FnovaDownPadding_outer3.png?1541576146833",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FnovaDownPadding_outer3.png?1541576146833"]
     },
@@ -39,6 +42,7 @@
       "category": "Outer",
       "title": "Gray long Jacket",
       "description": "말걸지마 난 도도녀니까",
+      "price": "₩ 158,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FgrayLongJacket_outer4.png?1541576144392",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FgrayLongJacket_outer4.png?1541576144392"]
     },
@@ -47,6 +51,7 @@
       "category": "Outer",
       "title": "Short Dark Padding",
       "description": "귀여움과 다리길어 보임 2가지 매력을 모두 선보이고 싶은 날",
+      "price": "₩ 170,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FshortDarkPadding_outer5.png?1541576134344",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FshortDarkPadding_outer5.png?1541576134344"]
     },
@@ -55,6 +60,7 @@
       "category": "Outer",
       "title": "Brown long coat",
       "description": "도서관 인기녀",
+      "price": "₩180,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbrownLongCoat_outer6.png?1541576146618",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbrownLongCoat_outer6.png?1541576146618"]
     },
@@ -63,6 +69,7 @@
       "category": "Outer",
       "title": "Short Square Padding",
       "description": "니뽄온나",
+      "price": "₩ 160,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FshortSquarePadding_outer7.png?1541576147642",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FshortSquarePadding_outer7.png?1541576147642"]
     },
@@ -71,6 +78,7 @@
       "category": "Outer",
       "title": "Basic Coat",
       "description": "대한민국 가을 교복",
+      "price": "₩ 140,000"
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbasicCoat_outer8.png?1541576143071",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbasicCoat_outer8.png?1541576143071"]
     },
@@ -79,6 +87,7 @@
       "category": "Outer",
       "title": "Banding Coat",
       "description": "오늘은 선다방 가는 날",
+      "price": "₩150,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbandingCoat_outer9.png?1541576137718",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbandingCoat_outer9.png?1541576137718"]
     },
@@ -87,6 +96,7 @@
       "category": "top",
       "title": "White Princess Blouse",
       "description": "곱게 자란티 내고 싶은 날",
+      "price": "₩ 60,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FwhitePrincessBlouse_top1.png?1541576136179",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FwhitePrincessBlouse_top1.png?1541576136179"]
     },
@@ -95,6 +105,7 @@
       "category": "top",
       "title": "Navy Knit",
       "description": "오늘은 웬지 지적이고파",
+      "price": "₩ 59,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FnavyKnit_top2.png?1541576143054",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FnavyKnit_top2.png?1541576143054"]
     },
@@ -103,6 +114,7 @@
       "category": "top",
       "title": "Wine Knit",
       "description": "분위기녀라면 입으시오",
+      "price": "₩ 48,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FwineKnit_top3.png?1541642511474",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FwineKnit_top3.png?1541642511474"]
     },
@@ -111,6 +123,7 @@
       "category": "top",
       "title": "White Knit",
       "description": "꾸민듯 안꾸민듯",
+      "price": "₩ 40,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FwhiteKnit_top4.png?1541642596875",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FwhiteKnit_top4.png?1541642596875"]
     },
@@ -119,6 +132,7 @@
       "category": "top",
       "title": "Pink Shirts",
       "description": "입는순간 훈녀등극",
+      "price": "₩50,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FpinkShirt_top5.png?1541576135699",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FpinkShirt_top5.png?1541576135699"]
     },
@@ -127,6 +141,7 @@
       "category": "top",
       "title": "V Shirts",
       "description": "비오는날 입으면 간지 좔좔",
+      "price": "₩ 50,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FvShirt_top6.png?1541576147317",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FvShirt_top6.png?1541576147317"]
     },
@@ -135,14 +150,16 @@
       "category": "bottom",
       "title": "Baggie Pants",
       "description": "시크뿜뿜 배기팬츠",
-      "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FvShirt_top6.png?1541576147317",
-      "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FvShirt_top6.png?1541576147317"]
+      "price": "₩ 80,000",
+      "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbaggiePants_bottom1.png?1541576136560",
+      "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbaggiePants_bottom1.png?1541576136560"]
     },
     {
       "id": 17,
       "category": "bottom",
       "title": "Black Jean",
       "description": "오늘 내 각선미 뽐내고 싶어 너에게 말이야 바로 너",
+      "price": "₩ 48,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FblackJean_bottom2.png?1541576133318",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FblackJean_bottom2.png?1541576133318"]
     },
@@ -151,6 +168,7 @@
       "category": "bottom",
       "title": "Blue Jean",
       "description": "청순발랄 블루진",
+      "price": "60,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FblueJean_bottom3.png?1541643785780",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FblueJean_bottom3.png?1541643785780"]
     },
@@ -159,6 +177,7 @@
       "category": "bottom",
       "title": "Dark Jean",
       "description": "너무 추운데 받쳐입기 애매해? 그렇다면 이건 겟해야해!",
+      "price": "₩ 70,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FdarkJean_bottom4.png?1541576136270",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FdarkJean_bottom4.png?1541576136270"]
     },
@@ -166,7 +185,8 @@
       "id": 20,
       "category": "bottom",
       "title": "Knit Skirt",
-      "description": "고귀한 집에 살고 싶은 여자티 내고 싶을때",
+      "description": "부잣집 응접실룩 입고 싶을때",
+      "price": "₩ 48,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FknitSkirt_bottom5.png?1541576135475",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FknitSkirt_bottom5.png?1541576135475"]
     },
@@ -175,6 +195,7 @@
       "category": "bottom",
       "title": "Button Skirt",
       "description": "영화에 나오는 청순하게 병걸린 여자 분위기 내고 싶어",
+      "price": "₩ 48,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbuttonSkirt_bottom6.png?1541576140390",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbuttonSkirt_bottom6.png?1541576140390"]
     },
@@ -183,6 +204,7 @@
       "category": "bottom",
       "title": "Black Skirt",
       "description": "튀지는 않지만 나만의 엣지를 표현하고 싶다",
+      "price": "₩ 55,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FblackSkirt_bottom7.png?1541576141255",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FblackSkirt_bottom7.png?1541576141255"]
     },
@@ -191,6 +213,7 @@
       "category": "one-piece",
       "title": "Brown onepiece",
       "description": "가을화보 찍으러 가자",
+      "price": "₩ 80,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2Fblackonepiece_onepiece1.png?1541576137875",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2Fblackonepiece_onepiece1.png?1541576137875"]
     },
@@ -199,6 +222,7 @@
       "category": "one-piece",
       "title": "Black onepice",
       "description": "도도한데 지적이고 섹시할거야 바로 오늘",
+      "price": "₩ 77,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2Fbrownonepiece_onepiece2.png?1541576135679",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2Fbrownonepiece_onepiece2.png?1541576135679"]
     },
@@ -207,6 +231,7 @@
       "category": "Accessory",
       "title": "Colorful Socks",
       "description": "느낌대로 골라골라",
+      "price": "₩ 4,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FcolorSocks_Accessory1.png?1541576146996",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FcolorSocks_Accessory1.png?1541576146996"]
     },
@@ -215,6 +240,7 @@
       "category": "Accessory",
       "title": "Basic Muffler",
       "description": "일본훈녀 너야너 너야너",
+      "price": "₩ 34,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FivoryMuffler_Accessory2.png?1541576140544",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FivoryMuffler_Accessory2.png?1541576140544"]
     },    {
@@ -222,6 +248,7 @@
       "category": "Accessory",
       "title": "Brown Muffler",
       "description": "연탄갈러 가자",
+      "price": "₩ 36,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbrownMuffler_Accessory3.png?1541576141557",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbrownMuffler_Accessory3.png?1541576141557"]
     },
@@ -230,6 +257,7 @@
       "category": "Accessory",
       "title": "Green Muffler",
       "description": "그냥보면 빈티나는데 두르면 부티나는 매직머플러 ",
+      "price": "₩ 35,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FgreenMuffler_Accessory4.png?1541644871423",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FgreenMuffler_Accessory4.png?1541644871423"]
     },
@@ -238,6 +266,7 @@
       "category": "Accessory",
       "title": "Long Socks",
       "description": "그치 ? 발목이 추웠지? 으이그 빨리사",
+      "price": "₩ 7,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FlongSocks_Accossory5.png?1541644979749",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FlongSocks_Accossory5.png?1541644979749"]
     }
@@ -247,6 +276,12 @@
       "id": 1,
       "productId": 1,
       "title": "Medium",
+      "price": 30000
+    },
+    {
+      "id": 1,
+      "productId": 2,
+      "title": "Large",
       "price": 30000
     },
     {

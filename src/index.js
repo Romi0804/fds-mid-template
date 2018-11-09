@@ -162,18 +162,20 @@ async function drawLoginForm() {
  async function drawPostDetail(productId) {
   // 1. 템플릿 복사
   const frag = document.importNode(templates.productDetail, true)
+  //화면에서 상품이미지를 클릭했을때, 나오는 상품 상세페이지 템플릿을 선택하여 복사
 
   // 2. 요소 선택
   const mainImageEl = frag.querySelector('.main-image')
   const titleEl = frag.querySelector('.title')
   const descriptionEl = frag.querySelector('.description')
+  const priceEl=frag.querySelector('.price')
   const cartFormEl = frag.querySelector('.cartForm')
   const detailImageListEl = frag.querySelector('.detail-image-list')
 
   // 3. 필요한 데이터 불러오기
   const { data: {
     title,
-    description,
+    price,
     mainImgUrl,
     detailImgUrls
   } } = await api.get(`/products/${productId}`)
@@ -182,7 +184,7 @@ async function drawLoginForm() {
   // 4. 내용 채우기
   mainImageEl.setAttribute('src', mainImgUrl)
   titleEl.textContent = title
-  descriptionEl.textContent = description
+  priceEl.textContent = price
   for (const url of detailImgUrls) {
     const frag = document.importNode(templates.detailImage, true)
 
