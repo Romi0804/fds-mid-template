@@ -68,6 +68,8 @@ async function drawProductList(category) {
 
   // 2. 요소 선택
   const productListEl = frag.querySelector('.product-list')
+  //const outerEl = frag.querySelector('.navbar_outer')
+
 
   // 3. 필요한 데이터 불러오기
   const params = {}
@@ -94,6 +96,7 @@ async function drawProductList(category) {
     const titleEl = frag.querySelector('.title')
     const descriptionEl = frag.querySelector('.description')
 
+
     // 3. 필요한 데이터 불러오기 - x
     // 4. 내용 채우기
     mainImageEl.setAttribute('src', mainImgUrl)
@@ -111,6 +114,17 @@ async function drawProductList(category) {
     productListEl.appendChild(frag)
   }
   // 5. 이벤트 리스너 등록하기
+  // outerEl.addEventListener('click', e => {
+  //   e.preventDefault();
+  //   const response = await api.get('/products', {
+  //     params: {
+  //       category: "Outer"
+  //     }
+  // })
+  // const productItems = response.data
+  // productListEl.appenChild(productItems)
+  // })
+
   // 6. 템플릿을 문서에 삽입
   drawFragment(frag)
 }

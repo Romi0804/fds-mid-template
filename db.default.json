@@ -78,7 +78,7 @@
       "category": "Outer",
       "title": "Basic Coat",
       "description": "대한민국 가을 교복",
-      "price": "₩ 140,000"
+      "price": "₩ 140,000",
       "mainImgUrl": "https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbasicCoat_outer8.png?1541576143071",
       "detailImgUrls": ["https://cdn.glitch.com/0172e3b3-ec30-4953-a869-332582da7d4d%2FbasicCoat_outer8.png?1541576143071"]
     },
@@ -275,32 +275,344 @@
     {
       "id": 1,
       "productId": 1,
-      "title": "Medium",
-      "price": 30000
-    },
-    {
-      "id": 1,
-      "productId": 2,
-      "title": "Large",
-      "price": 30000
+      "title": "M",
+      "price": 93000
     },
     {
       "id": 2,
       "productId": 1,
-      "title": "Large",
-      "price": 33000
+      "title": "L",
+      "price": 93000
     },
     {
       "id": 3,
       "productId": 2,
-      "title": "Medium",
-      "price": 60000
+      "title": "M",
+      "price": 133000
     },
     {
       "id": 4,
       "productId": 2,
-      "title": "Large",
-      "price": 66000
+      "title": "L",
+      "price": 133000
+    },
+    {
+      "id": 5,
+      "productId": 3,
+      "title": "M",
+      "price": 169000
+    },
+    {
+      "id": 6,
+      "productId": 3,
+      "title": "L",
+      "price": 169000
+    },
+    {
+      "id": 7,
+      "productId": 4,
+      "title": "M",
+      "price": 158000
+    },
+    {
+      "id": 8,
+      "productId": 4,
+      "title": "L",
+      "price": 158000
+    },
+    {
+      "id": 9,
+      "productId": 5,
+      "title": "M",
+      "price": 170000
+    },
+    {
+      "id": 10,
+      "productId": 5,
+      "title": "L",
+      "price": 170000
+    },
+    {
+      "id": 11,
+      "productId": 6,
+      "title": "M",
+      "price": 180000
+    },
+    {
+      "id": 12,
+      "productId": 6,
+      "title": "L",
+      "price": 180000
+    },
+    {
+      "id": 13,
+      "productId": 7,
+      "title": "M",
+      "price": 160000
+    },
+    {
+      "id": 14,
+      "productId": 7,
+      "title": "L",
+      "price": 160000
+    },
+    {
+      "id": 17,
+      "productId": 8,
+      "title": "M",
+      "price": 140000
+    },
+    {
+      "id": 18,
+      "productId": 8,
+      "title": "L",
+      "price": 140000
+    },
+    {
+      "id": 19,
+      "productId": 9,
+      "title": "M",
+      "price": 150000
+    },
+    {
+      "id": 20,
+      "productId": 9,
+      "title": "L",
+      "price": 150000
+    },
+    {
+      "id": 21,
+      "productId": 10,
+      "title": "M",
+      "price": 60000
+    },
+    {
+      "id": 22,
+      "productId": 10,
+      "title": "L",
+      "price": 60000
+    },
+    {
+      "id": 23,
+      "productId": 11,
+      "title": "M",
+      "price": 59000
+    },
+    {
+      "id": 24,
+      "productId": 11,
+      "title": "L",
+      "price": 59000
+    },
+    {
+      "id": 25,
+      "productId": 12,
+      "title": "M",
+      "price": 48000
+    },
+    {
+      "id": 26,
+      "productId": 12,
+      "title": "L",
+      "price": 48000
+    },
+    {
+      "id": 27,
+      "productId": 13,
+      "title": "M",
+      "price": 40000
+    },
+    {
+      "id": 28,
+      "productId": 13,
+      "title": "L",
+      "price": 40000
+    },
+    {
+      "id": 29,
+      "productId": 14,
+      "title": "M",
+      "price": 50000
+    },
+    {
+      "id": 30,
+      "productId": 14,
+      "title": "L",
+      "price": 50000
+    },
+    {
+      "id": 31,
+      "productId": 15,
+      "title": "M",
+      "price": 50000
+    },
+    {
+      "id": 32,
+      "productId": 15,
+      "title": "L",
+      "price": 50000
+    },
+    {
+      "id": 33,
+      "productId": 16,
+      "title": "M",
+      "price": 80000
+    },
+    {
+      "id": 34,
+      "productId": 16,
+      "title": "L",
+      "price": 80000
+    },
+    {
+      "id": 35,
+      "productId": 17,
+      "title": "M",
+      "price": 48000
+    },
+    {
+      "id": 36,
+      "productId": 17,
+      "title": "L",
+      "price": 48000
+    },
+    {
+      "id": 37,
+      "productId": 18,
+      "title": "M",
+      "price": 60000
+    },
+    {
+      "id": 38,
+      "productId": 18,
+      "title": "L",
+      "price": 60000
+    },
+    {
+      "id": 39,
+      "productId": 19,
+      "title": "M",
+      "price": 70000
+    },
+    {
+      "id": 40,
+      "productId": 19,
+      "title": "L",
+      "price": 70000
+    },
+    {
+      "id": 41,
+      "productId": 20,
+      "title": "M",
+      "price": 48000
+    },
+    {
+      "id": 42,
+      "productId": 20,
+      "title": "L",
+      "price": 48000
+    },
+    {
+      "id": 43,
+      "productId": 21,
+      "title": "M",
+      "price": 55000
+    },
+    {
+      "id": 43,
+      "productId": 22,
+      "title": "L",
+      "price": 55000
+    },
+    {
+      "id": 44,
+      "productId": 23,
+      "title": "M",
+      "price": 80000
+    },
+    {
+      "id": 45,
+      "productId": 23,
+      "title": "L",
+      "price": 80000
+    },
+    {
+      "id": 46,
+      "productId": 24,
+      "title": "M",
+      "price": 77000
+    },
+    {
+      "id": 47,
+      "productId": 24,
+      "title": "L",
+      "price": 77000
+    },
+    {
+      "id": 48,
+      "productId": 25,
+      "title": "Red",
+      "price": 4000
+    },
+    {
+      "id": 49,
+      "productId": 25,
+      "title": "Yellow",
+      "price": 4000
+    },
+    {
+      "id": 50,
+      "productId": 25,
+      "title": "Green",
+      "price": 4000
+    },
+    {
+      "id": 51,
+      "productId": 25,
+      "title": "Baige",
+      "price": 4000
+    },
+    {
+      "id": 52,
+      "productId": 26,
+      "title": "Baige",
+      "price": 34000
+    },
+    {
+      "id": 53,
+      "productId": 27,
+      "title": "Brown",
+      "price": 36000
+    },
+    {
+      "id": 54,
+      "productId": 28,
+      "title": "Green",
+      "price": 34000
+    },
+    {
+      "id": 55,
+      "productId": 29,
+      "title": "Navy",
+      "price": 7000
+    },
+    {
+      "id": 56,
+      "productId": 29,
+      "title": "Gray",
+      "price": 7000
+    },
+    {
+      "id": 57,
+      "productId": 29,
+      "title": "Green",
+      "price": 7000
+    },
+    {
+      "id": 58,
+      "productId": 29,
+      "title": "Black",
+      "price": 7000
     }
   ],
   "cartItems": [
@@ -309,14 +621,14 @@
       "userId": 2,
       "optionId": 1,
       "quantity": 2,
-      "orderId": -1
+      "ordered": true
     },
     {
       "id": 2,
       "userId": 2,
       "optionId": 2,
       "quantity": 3,
-      "orderId": 1
+      "ordered": false
     }
   ],
   "orders": [

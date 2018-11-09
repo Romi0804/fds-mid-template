@@ -189,7 +189,7 @@ margin: 0 auto;
   width: 400px;
   height: auto;
   border-right: 2px solid #535353;
-  }
+}
 
 .info-detail{
     display: inline-block;
@@ -209,4 +209,11 @@ margin: 0 auto;
   padding: 25px 0 0 7px;
   border-top: 2px solid #535353;
 }
+
+.option, .quantity {
+  width: 520px;
+  margin: 10px 0 0 25px;
+  padding: 25px 0 0 7px;
+}
+
 

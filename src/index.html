@@ -31,11 +31,10 @@
       </div>
     </div>
     <nav class="navbar">
-        <div class="navbar_best">BEST</div>
         <div class="navbar_outer">OUTER</div>
         <div class="navbar_top">TOP</div>
         <div class="navbar_bottom">BOTTOM</div>
-        <div class="navbar_onepice">ONEPIECE</div>
+        <div class="navbar_onepiece">ONEPIECE</div>
         <div class="navbar_accessory">ACCESSORY</div>
       </nav>
       <main class="main"></main>
@@ -56,6 +55,7 @@
       </div>
     </template>
 
+
   <!--상품목록-->
     <template id="product-list">
       <ul class="product-list"></ul>
@@ -69,6 +69,8 @@
         </li>
       </template>
 
+
+
   <!-- 상품상세 -->
       <template id="product-detail">
         <div class="product-detail">
@@ -76,10 +78,26 @@
             <img class="main-image">
             <div class="info-detail">
             <div class="title"></div>
-            <div class="price">Price</div>
+            <div class="price"></div>
+            <form class="cart-form">
+              <div class="option">
+                <label class="size">Options</label>
+                <select name="option" required>
+                  <option value="" disabled selected>Select Options</option>
+                  <option value="1">Medium</option>
+                  <option value="2">Large</option>
+                </select>
+                </div>
+                <div class="quantity">
+                <label>
+                    Number :
+                    <input type="number" name="quantity" placeholder="1" min="1" max="100" value="1">
+                    </label>
+                </div>
+              </form>
+              <button class="add-to-cart">CART</button>
             </div>
           </div>
-          <form class="cart-form"></form>
           <div class="detail-image-list">
           </div>
         </div>
