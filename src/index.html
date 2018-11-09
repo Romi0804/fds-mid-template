@@ -30,13 +30,13 @@
          <div class="appbar__review">REVIEW</div>
       </div>
     </div>
-    <nav class="navbar">
-        <div class="navbar_outer">OUTER</div>
-        <div class="navbar_top">TOP</div>
-        <div class="navbar_bottom">BOTTOM</div>
-        <div class="navbar_onepiece">ONEPIECE</div>
-        <div class="navbar_accessory">ACCESSORY</div>
-      </nav>
+    <ul class="navbar">
+        <li class="navbar_outer">OUTER</li>
+        <li class="navbar_top">TOP</li>
+        <li class="navbar_bottom">BOTTOM</li>
+        <li class="navbar_onepiece">ONEPIECE</li>
+        <li class="navbar_accessory">ACCESSORY</li>
+      </ul>
       <main class="main"></main>
  </template>
 
@@ -58,15 +58,21 @@
 
   <!--상품목록-->
     <template id="product-list">
+      <h2 class="list-name"></h2>
       <ul class="product-list"></ul>
     </template>
 
       <template id="product-item">
+        <figure><
         <li class="product-item">
           <img class="main-image">
-          <div class="title"></div>
-          <div class="description"></div>
+          <figcaption>
+          <p class="title"></p>
+          <p class="description"></p>
+          <p class="amount"></p>
+          </figcaption>
         </li>
+        </figure>
       </template>
 
 
@@ -95,7 +101,8 @@
                     </label>
                 </div>
               </form>
-              <button class="add-to-cart">CART</button>
+              <button class="add-to-order">BUY NOW</button>
+              <button class="add-to-cart">SHOPPING CART</button>
             </div>
           </div>
           <div class="detail-image-list">

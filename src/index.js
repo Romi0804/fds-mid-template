@@ -47,11 +47,38 @@ function drawFragment(frag) {
   //2. 요소 선택
   const mainEl = layoutFrag.querySelector('.main')
   const loginEl = layoutFrag.querySelector('.appbar__sign-in')
+  const outerEl = layoutFrag.querySelector('.navbar_outer')
+  const topEl = layoutFrag.querySelector('.navbar_top')
+  const bottomEl = layoutFrag.querySelector('.navbar_bottom')
+  const onepieceEl = layoutFrag.querySelector('.navbar_onepiece')
+  const accessoryEl = layoutFrag.querySelector('.navbar_accessory')
 
   // 5. 이벤트 리스너 등록하기
   loginEl.addEventListener('click', async e=>{
     drawLoginForm()
   })
+
+  outerEl.addEventListener('click', async e => {
+    drawProductList('Outer')
+  })
+
+  topEl.addEventListener('click', async e => {
+    drawProductList('top')
+  })
+
+  bottomEl.addEventListener('click', async e => {
+    drawProductList('bottom')
+  })
+
+  onepieceEl.addEventListener('click', async e => {
+    drawProductList('one-piece')
+  })
+
+  accessoryEl.addEventListener('click' , async e => {
+    drawProductList('Accessory')
+  })
+
+
 
   //6.템플릿을 문서에 삽입
   mainEl.appendChild(frag)
@@ -69,6 +96,7 @@ async function drawProductList(category) {
   // 2. 요소 선택
   const productListEl = frag.querySelector('.product-list')
   //const outerEl = frag.querySelector('.navbar_outer')
+  const listNameEl = frag.querySelector('.list-name')
 
 
   // 3. 필요한 데이터 불러오기
@@ -85,6 +113,8 @@ async function drawProductList(category) {
   // productList 데이터가 온다.
 
   // 4. 내용 채우기
+  listNameEl.textContent = category
+
   for (const { id: postId, title, description, mainImgUrl } of productList) {
     //
     // 1. 템플릿 복사
@@ -95,6 +125,7 @@ async function drawProductList(category) {
     const mainImageEl = frag.querySelector('.main-image')
     const titleEl = frag.querySelector('.title')
     const descriptionEl = frag.querySelector('.description')
+    const amountEl = frag.querySelector('.amount')
 
 
     // 3. 필요한 데이터 불러오기 - x
@@ -104,6 +135,7 @@ async function drawProductList(category) {
 
     titleEl.textContent = title
     descriptionEl.textContent = description
+    //amountEl.textContent = options[0].price
 
     // 5. 이벤트 리스너 등록하기
     productItemEl.addEventListener('click', e => {
@@ -128,6 +160,13 @@ async function drawProductList(category) {
   // 6. 템플릿을 문서에 삽입
   drawFragment(frag)
 }
+
+
+// // 총액계산 함수
+// function total(price, quantity){
+//   return price*quantity
+// }
+
 
 //로그인폼 기능 구현
 async function drawLoginForm() {
