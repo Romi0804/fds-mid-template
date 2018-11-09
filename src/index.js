@@ -46,6 +46,7 @@ function drawFragment(frag) {
 
   //2. 요소 선택
   const mainEl = layoutFrag.querySelector('.main')
+  const homeEl = layoutFrag.querySelector('.appbar__left')
   const loginEl = layoutFrag.querySelector('.appbar__sign-in')
   const outerEl = layoutFrag.querySelector('.navbar_outer')
   const topEl = layoutFrag.querySelector('.navbar_top')
@@ -54,31 +55,40 @@ function drawFragment(frag) {
   const accessoryEl = layoutFrag.querySelector('.navbar_accessory')
 
   // 5. 이벤트 리스너 등록하기
+  //로고 이벤트 리스너
+  homeEl.addEventListener('click', async e => {
+   drawProductList()
+  })
+
+  //로그인폼 이벤트 리스너
   loginEl.addEventListener('click', async e=>{
     drawLoginForm()
   })
 
+  //아우터버튼 이벤트 리스너
   outerEl.addEventListener('click', async e => {
     drawProductList('Outer')
   })
 
+  //탑 버튼 이벤트 리스너
   topEl.addEventListener('click', async e => {
     drawProductList('top')
   })
 
+  //바텀 버튼 이벤트 리스너
   bottomEl.addEventListener('click', async e => {
     drawProductList('bottom')
   })
 
+   // 원피스 버튼 이벤트 리스너
   onepieceEl.addEventListener('click', async e => {
     drawProductList('one-piece')
   })
 
+  // 악세사리버튼 이벤트 리스너
   accessoryEl.addEventListener('click' , async e => {
     drawProductList('Accessory')
   })
-
-
 
   //6.템플릿을 문서에 삽입
   mainEl.appendChild(frag)
@@ -95,9 +105,6 @@ async function drawProductList(category) {
 
   // 2. 요소 선택
   const productListEl = frag.querySelector('.product-list')
-  //const outerEl = frag.querySelector('.navbar_outer')
-  const listNameEl = frag.querySelector('.list-name')
-
 
   // 3. 필요한 데이터 불러오기
   const params = {}
@@ -113,8 +120,6 @@ async function drawProductList(category) {
   // productList 데이터가 온다.
 
   // 4. 내용 채우기
-  listNameEl.textContent = category
-
   for (const { id: postId, title, description, mainImgUrl } of productList) {
     //
     // 1. 템플릿 복사
@@ -146,16 +151,6 @@ async function drawProductList(category) {
     productListEl.appendChild(frag)
   }
   // 5. 이벤트 리스너 등록하기
-  // outerEl.addEventListener('click', e => {
-  //   e.preventDefault();
-  //   const response = await api.get('/products', {
-  //     params: {
-  //       category: "Outer"
-  //     }
-  // })
-  // const productItems = response.data
-  // productListEl.appenChild(productItems)
-  // })
 
   // 6. 템플릿을 문서에 삽입
   drawFragment(frag)
