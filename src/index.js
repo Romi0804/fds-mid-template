@@ -217,10 +217,13 @@ async function drawLoginForm() {
   const titleEl = frag.querySelector('.title')
   const descriptionEl = frag.querySelector('.description')
   const priceEl=frag.querySelector('.price')
+  const quantityEl = frag.querySelector('.quantity').querySelector('input')
+  const amountEl = frag.querySelector('.amount').querySelector('dd')
   const cartFormEl = frag.querySelector('.cartForm')
   const detailImageListEl = frag.querySelector('.detail-image-list')
 
   // 3. 필요한 데이터 불러오기
+  //const {data: } = await api.get(`/products?id=${prodId}&_embed=options`)
   const { data: {
     title,
     price,
@@ -228,7 +231,17 @@ async function drawLoginForm() {
     detailImgUrls
   } } = await api.get(`/products/${productId}`)
 
+  //const {data: {title, price}} = await api.get('/options/' + productId)
+
+  // const {data: { title, price}}= await api.get(`/options/${productId}`,{
+  //   params
+  // //    :{} productId: id
+  //   })
+
+
+
   console.log(detailImgUrls)
+
   // 4. 내용 채우기
   mainImageEl.setAttribute('src', mainImgUrl)
   titleEl.textContent = title
