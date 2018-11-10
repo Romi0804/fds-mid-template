@@ -13,7 +13,7 @@ api.interceptors.request.use(function (config) {
     config.headers['Authorization'] = 'Bearer ' + token
   }
   return config
-});
+})
 
 //템플릿목록
 const templates = {
