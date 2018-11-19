@@ -130,10 +130,12 @@ async function drawProductList(category) {
     const mainImageEl = frag.querySelector('.main-image')
     const titleEl = frag.querySelector('.title')
     const descriptionEl = frag.querySelector('.description')
-    const amountEl = frag.querySelector('.amount')
+    //const amountEl = frag.querySelector('.amount')
 
 
-    // 3. 필요한 데이터 불러오기 - x
+    // 3. 필요한 데이터 불러오기
+
+
     // 4. 내용 채우기
     mainImageEl.setAttribute('src', mainImgUrl)
     //src라는 이름에 mainImg Url을 넣어라
@@ -231,14 +233,14 @@ async function drawLoginForm() {
     detailImgUrls
   } } = await api.get(`/products/${productId}`)
 
-  //const {data: {title, price}} = await api.get('/options/' + productId)
+  //option의 productID로 데이터 불러오기
+  const {data : options} = await api.get('/options', {
+    params: {
+      productId: productId
+    }
+  })
 
-  // const {data: { title, price}}= await api.get(`/options/${productId}`,{
-  //   params
-  // //    :{} productId: id
-  //   })
-
-
+ const valueprice = options[0].price
 
   console.log(detailImgUrls)
 
@@ -246,6 +248,8 @@ async function drawLoginForm() {
   mainImageEl.setAttribute('src', mainImgUrl)
   titleEl.textContent = title
   priceEl.textContent = price
+  amountEl.textContent = total(valueprice, quantityEl.value)
+
   for (const url of detailImgUrls) {
     const frag = document.importNode(templates.detailImage, true)
 
@@ -257,8 +261,18 @@ async function drawLoginForm() {
   }
 
   // 5. 이벤트 리스너 등록하기
+  //수량 조정하면 총금액 바뀐다
+  quantityEl.addEventListener('change', e=> {
+    amountEl.textContent = total(valueprice, quantityEl.value)
+  })
+
   // 6. 템플릿을 문서에 삽입
   drawFragment(frag)
+}
+
+// 총액계산 함수
+function total(valueprice, quantity){
+  return valueprice*quantity
 }
 
 drawProductList()
